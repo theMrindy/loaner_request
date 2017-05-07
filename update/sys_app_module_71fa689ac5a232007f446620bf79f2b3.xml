@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Loaner Request">1499209ac5a232007f446620bf79f2a5</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_snc_loaner_reque_loaner_request">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>List of All  open loan requests.</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Open</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_loaner_reque_loaner_request</name>
+        <order>50</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_snc_loaner_reque.loaner_request_user</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-07 15:34:30</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>71fa689ac5a232007f446620bf79f2b3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Open</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner request" source="x_snc_loaner_reque">5cd7e01ac5a232007f446620bf79f22e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Loaner request">5cd7e01ac5a232007f446620bf79f22e</sys_scope>
+        <sys_update_name>sys_app_module_71fa689ac5a232007f446620bf79f2b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-07 15:34:39</sys_updated_on>
+        <timeline_page/>
+        <title>Open</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
