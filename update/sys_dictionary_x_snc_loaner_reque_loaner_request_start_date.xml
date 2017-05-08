@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_snc_loaner_reque_loaner_request">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="start_date" table="x_snc_loaner_reque_loaner_request">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
+        <calculation/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Start date</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -28,11 +23,11 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>start_date</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="Collection">collection</internal_type>
-        <mandatory>false</mandatory>
+        <internal_type display_value="">glide_date_time</internal_type>
+        <mandatory>true</mandatory>
         <max_length>40</max_length>
         <name>x_snc_loaner_reque_loaner_request</name>
         <next_element/>
@@ -51,18 +46,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-05-07 15:27:37</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
-        <sys_id>615a8966c5a632007f446620bf79f25d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_snc_loaner_reque_loaner_request</sys_name>
+        <sys_created_on>2017-05-07 18:27:19</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>41b25116c5e232007f446620bf79f29f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Start date</sys_name>
         <sys_package display_value="Loaner request" source="x_snc_loaner_reque">5cd7e01ac5a232007f446620bf79f22e</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Loaner request">5cd7e01ac5a232007f446620bf79f22e</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_loaner_reque_loaner_request_NULL</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-05-08 12:29:15</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_snc_loaner_reque_loaner_request_start_date</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-07 18:27:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
